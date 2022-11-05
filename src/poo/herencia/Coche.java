@@ -25,4 +25,8 @@ public class Coche extends Vehiculo {
 
     // 3. Metodos
 
+    public void numPuertas() { // este es un metodo especifico de la clase coche q es hija de vehiculo
+        System.out.println("El " + fabricante + " " + modelo + " tiene " + numeroPuertas + " puertas");
+    }
+
 }
