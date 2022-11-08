@@ -21,12 +21,11 @@ public class Moto extends Vehiculo {
     }
 
     // 3. Metodos
-    public void ImprmirMoto() {
+    public void imprmirMoto() {
         if (baul) {
-            System.out.println("La moto tiene baul");
+            System.out.println("La moto " + fabricante +" tiene baul");
         } else {
-            System.out.println("La moto no tiene baul");
+            System.out.println("La moto " + fabricante +" no tiene baul");
         }
-        System.out.println("El fabricante es: " + fabricante);
     }
 }

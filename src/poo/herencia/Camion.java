@@ -13,4 +13,8 @@ public class Camion extends Vehiculo {
         super(fabricante, modeloVehiculo, cc, year, sport, velocidad, motor);
         this.capacidadCarga = capacidadCarga;
     }
+    // 3. Metodos
+    public void imprimirCamion(){
+        System.out.println("El camion " + fabricante + " tiene " + capacidadCarga + " Kilos de carga");
+    }
 }

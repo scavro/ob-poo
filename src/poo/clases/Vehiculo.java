@@ -34,6 +34,7 @@ public class Vehiculo {
     // 3. Metodos -- es el comportamiento
     public void acelerar(int cantidad) { // aceleramos el coche
         this.velocidad += cantidad;
+        System.out.println("Has acelerado: " + velocidad);
     }
 
     public void imprimir() {
